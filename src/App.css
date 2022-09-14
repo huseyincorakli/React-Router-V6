@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+body{
+  max-height:100vh ;
+  background-color: bisque;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  height: 30px;
+  margin: 0;
+  border-bottom: 2px solid;
+   background-color: bisque;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header>ul {
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: space-around;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home{
+  display: flex;
+  background-color: rgb(229, 214, 243);
+  
+}
+.homeNavbar{
+  background-color: rgb(245, 213, 218);
+  flex-direction: row;
+  border-right: 2px solid;
+  
+}
+.homeNavbar>ul{
+  list-style-type: none;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main{
+  background-color: rgb(196, 196, 241);
+  flex: 1;
+  text-align: center;
+  align-self: center;
+}
+.userHome{
+  display: flex;
+  background-color: rgb(229, 214, 243);
+}
+.userNavbar{
+  background-color: rgb(245, 213, 218);
+  flex-direction: row;
+  border-right: 2px solid;
+}
+.userNavbar>ul{
+  list-style-type: none;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.personelMain{
+  background-color: rgb(196, 196, 241);
+  flex: 1;
+  text-align: center;
+  align-self: center;
 }
