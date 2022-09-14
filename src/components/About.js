@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function About() {
+  const navigate = useNavigate()
+  useEffect(()=>{
+    setTimeout(() => {
+      navigate("home")
+    }, 3000);
+  },[navigate])
   return (
     <div>
-      About
+      Temporarily out of service.You are led home...
     </div>
   )
 }
