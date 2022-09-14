@@ -1,3 +1,6 @@
+![React App - Opera 2022-09-14 17-25-40](https://user-images.githubusercontent.com/84595840/190184634-ba5cb5ab-e24b-4e87-a587-a23ee9acb3e0.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
